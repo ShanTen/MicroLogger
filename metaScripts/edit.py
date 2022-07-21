@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
 """
 NOTE: 
-The actual saved text files exist only as a redundancy, i.e in case something goes horribly wrong when I updated some site mechanics/shift sites
-I still retain the content. Them having added html doesn't matter, incase it makes my job easier in the future.
-Ofc I could ignore all of them and just pick up data.js but its nice to have both layers.
+The actual saved text files exist only as a redundancy, i.e in case something goes horribly wrong when you updated some site mechanics/shift sites
+You still retain the content. Them having added html doesn't matter, incase it makes your job easier in the future.
+Ofc you could ignore all of them and just pick up data.js but its nice to have both layers.
 """
