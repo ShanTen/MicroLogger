@@ -2,6 +2,8 @@
 pushd .\metaScripts\
 python Conv2HTML.py
 popd
-git add .
+git add .\WriteBlogHere\*
 git commit -m "Posted Something New!"
-git push -u origin 'master'
+git add .\metaScripts\memory.json
+git commit -m "Updated memory"
+git push -u origin 'master' rem this is a mildly stupid thing I did, I named my master branch 'master' instead of master 
