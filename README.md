@@ -1,5 +1,6 @@
 # Logger template
-Template for any new logger app you want to make.
+A simple CLI Logger template you can use for github pages.
+NOTE: This is essentially a very elaborate dom 'appender'(?) made to take advantage of github pages and their refresh system, all it does is produce a static webpage from text file content. 
 
 ## Setup:
 1. Clone this repository into a directory on your machine
