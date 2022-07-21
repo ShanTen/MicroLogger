@@ -99,7 +99,7 @@ def Main():
             #Updating data.js
             dataJSPath = r"../js/data.js"
             myList = readDataFile(dataJSPath)
-            myList.append(newPost.makeHtmlObj()) #I am stupid.
+            myList.append(newPost.makeHtmlObj())
             writeDataFile(dataJSPath,myList)
 
 if __name__ == "__main__":
