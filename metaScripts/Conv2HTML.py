@@ -59,7 +59,7 @@ def Main():
     ctimes = [getctime(join(readFromDirPath,f)) for f in listOfFiles]
     formattedCT = [format_ct(t) for t in ctimes]
 
-    #Im going to be honest here, I wrote this a while ago but I forgot what it does but I know it's important  (it makes a (title,timestamp) couple)
+    #Make a (title,timestamp) couple 
     couples = [(x,formattedCT[i]) for i,x in enumerate(ctimes)]
 
     #format of the dict -> {'Blog Title.txt': (CT_Float, formattedCT_String),..}

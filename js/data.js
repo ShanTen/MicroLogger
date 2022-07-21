@@ -1,2 +1,2 @@
-var blogContent =  /*startIndex*/['']/*endIndex*/
+var blogContent =  /*startIndex*/['', '<div id="1" class="post"><b><u>Test-Post</u></b> Posted on 2022-07-21 12:11<br><h1>Hi this is a test post!</h1>\n<ul>\n<li>bing</li>\n<li>chill</li>\n<li>ING</li>\n</ul></div>']/*endIndex*/
 function gimmeContent(){return blogContent}
