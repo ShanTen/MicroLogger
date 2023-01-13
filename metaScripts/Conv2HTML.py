@@ -40,7 +40,7 @@ def readDataFile(dataJSPath):
 
 def writeDataFile(dataJSPath,myList):
     with open(dataJSPath,'w',encoding="utf-8") as dataF:
-        fileContent = f"""var blogContent =  /*startIndex*/{myList}/*endIndex*/"""+'\n'+"function gimmeContent(){return blogContent}"
+        fileContent = f"""var blogContent =  /*startIndex*/{myList}/*endIndex*/"""+'\n'+"function loadContent(){return blogContent}"
         dataF.write(fileContent)
     print("data.js Updated.")
 
